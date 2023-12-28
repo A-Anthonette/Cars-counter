@@ -1,0 +1,53 @@
+body {
+  background-image: url("images/carTraffic.jpg");
+  background-size: cover;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: blueviolet
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: wheat;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+button {
+  border: 1px solid gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: rgb(154, 48, 48);
+  font-weight: bold;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 5px;
+  border-radius: 50px;
+}
+
+#increment-btn {
+  background: rgb(33, 207, 105);
+}
+
+#increment-btn:hover {
+  background: rgb(5, 77, 35);
+}
+
+#save-btn {
+  background: rgb(89, 64, 216);
+}
+
+#save-btn:hover {
+  background: rgb(46, 29, 129);
+}
